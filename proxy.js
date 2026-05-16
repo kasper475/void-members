@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// رابط البوت الأصلي
+// 👇 هنا حط رابط البوت الأصلي حقك
 const BOT_URL = 'http://usa6.kerit.cloud:9519/api/members';
 
 app.get('/api/members', async (req, res) => {
